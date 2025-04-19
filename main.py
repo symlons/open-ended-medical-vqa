@@ -2,7 +2,7 @@ from train import pytorch_model_run
 import torch
 from predict import eval_gpt_open_ended
 from models import VQAmedModel, VQAmedModel_abl
-from data_loaders.dataloader import medvqaDataset
+from data_preprocessing.dataloader import medvqaDataset
 from torch.utils.data import DataLoader
 import argparse
 import numpy as np

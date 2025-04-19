@@ -12,8 +12,8 @@ import os
 import numpy as np
 import random
 import pandas as pd
+from torch.optim import AdamW
 from transformers import (
-    AdamW,
     get_linear_schedule_with_warmup,
 )
 from torch.nn import functional as nnf
